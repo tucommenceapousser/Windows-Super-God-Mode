@@ -178,3 +178,123 @@ It is a standalone version of the feature built into the main script, but might 
 
 Usage:
 - No arguments necessary:  `.\Find_URLs_From_AppxPackage_Files.ps1`
+
+perso:
+
+## 📂 CLSID cachés Windows
+ 
+ 
+À utiliser comme : `Nom.{CLSID}`
+ 
+ 
+### ⚙️ Réglages & configuration
+ 
+ 
+- **GodMode (tous les réglages)** `{ED7BA470-8E54-465E-825C-99712043E01C}`
+ 
+- **Panneau de configuration** `{21EC2020-3AEA-1069-A2DD-08002B30309D}`
+ 
+- **Paramètres PC (Windows 10/11)** `{F1B32785-6FBA-4FCF-9D55-7B8E7F157091}`
+ 
+
+ 
+### 🖥️ Système
+ 
+ 
+- **Centre Réseau et partage** `{8E908FC9-BECC-40F6-915B-F4CA0E70D03D}`
+ 
+- **Connexions réseau** `{7007ACC7-3202-11D1-AAD2-00805FC1270E}`
+ 
+- **Gestionnaire de périphériques** `{74246bfc-4c96-11d0-abef-0020af6b0b7a}`
+ 
+- **Outils administratifs** `{D20EA4E1-3957-11D2-A40B-0C5020524153}`
+ 
+- **Gestion des disques** `{74246bfc-4c96-11d0-abef-0020af6b0b7a}`
+ 
+
+ 
+### 📑 Fichiers & bibliothèques
+ 
+ 
+- **Mes Documents** `{450D8FBA-AD25-11D0-98A8-0800361B1103}`
+ 
+- **Mes Images** `{7BD29E00-76C1-11CF-9DD0-00A0C9034933}`
+ 
+- **Téléchargements** `{374DE290-123F-4565-9164-39C4925E467B}`
+ 
+
+ 
+### 🛠️ Divers outils
+ 
+ 
+- **Programmes et fonctionnalités (désinstaller)** `{7b81be6a-ce2b-4676-a29e-eb907a5126c5}`
+ 
+- **Pare-feu Windows** `{4026492F-2F69-46B8-B9BF-5654FC07E423}`
+ 
+- **Tâches planifiées** `{D6277990-4C6A-11CF-8D87-00AA0060F5BF}`
+ 
+- **Journal des événements** `{F3A614DC-ABE0-11D1-8FB1-00A0C90F26F9}`
+ 
+- **Politiques de sécurité locales** `{62D8ED13-C9D0-4CE8-A914-47DD628FB1B0}`
+ 
+- **Gestion de l’ordinateur** `{20D04FE0-3AEA-1069-A2D8-08002B30309D}`
+ 
+
+ 
+### 🎵 Multimédia
+ 
+ 
+- **Périphériques audio** `{0F6F268D-6D61-4B15-B06C-9381D06236CC}`
+ 
+- **Caméras et scanners** `{6bdd1fc6-810f-11d0-bec7-08002be2092f}`
+
+```bash
+GodMode|{ED7BA470-8E54-465E-825C-99712043E01C}
+PanneauDeConfiguration|{21EC2020-3AEA-1069-A2DD-08002B30309D}
+AdminTools|{D20EA4E1-3957-11D2-A40B-0C5020524153}
+ConnexionsReseau|{7007ACC7-3202-11D1-AAD2-00805FC1270E}
+PeripheriquesEtImprimantes|{A8A91A66-3A7D-4424-8D24-04E180695C7A}
+ProgrammesEtFonctionnalites|{7b81be6a-ce2b-4676-a29e-eb907a5126c5}
+TachesPlanifiees|{D6277990-4C6A-11CF-8D87-00AA0060F5BF}
+LogsEvenements|{F3A614DC-ABE0-11D1-8FB1-00A0C90F26F9}
+GestionnairePeripheriques|{74246bfc-4c96-11d0-abef-0020af6b0b7a}
+PareFeuWindows|{4026492F-2F69-46B8-B9BF-5654FC07E423}
+CentreReseau|{8E908FC9-BECC-40F6-915B-F4CA0E70D03D}
+GestionOrdinateur|{20D04FE0-3AEA-1069-A2D8-08002B30309D}
+MesDocuments|{450D8FBA-AD25-11D0-98A8-0800361B1103}
+MesImages|{7BD29E00-76C1-11CF-9DD0-00A0C9034933}
+Telechargements|{374DE290-123F-4565-9164-39C4925E467B}
+Videos|{18989B1D-99B5-455B-841C-AB7C74E4DDFC}
+Musique|{4BD8D571-6D19-48D3-BE97-422220080E43}
+Favoris|{1777F761-68AD-4D8A-87BD-30B759FA33DD}
+Imprimantes|{2227A280-3AEA-1069-A2DE-08002B30309D}
+RacineOrdinateur|{871C5380-42A0-1069-A2EA-08002B30309D}
+ExplorateurRecent|{22877A6D-37A1-461A-91B0-DBDA5AAEBC99}
+ExplorateurBureau|{B4FB3F98-C1EA-428d-A78A-D1F5659CBA93}
+ExplorateurUtilisateur|{59031a47-3f72-44a7-89c5-5595fe6b30ee}
+Corbeille|{645FF040-5081-101B-9F08-00AA002F954E}
+PanneauSon|{F2DDFC82-8F12-4CDD-B7DC-D4FE1425AA4D}
+CentreMaintenance|{1F3E8A7C-8F5D-4F7C-B09E-2CDB63C2F78F}
+WindowsUpdate|{36eef7db-88ad-4e81-ad49-0e313f0c35f8}
+OptionsAlimentation|{025A5937-A6BE-4686-A844-36FE4BEC8B6D}
+OptionsSouris|{6C8EEC18-8D75-41B2-A177-8831D59D2D50}
+OptionsClavier|{BB06C0E4-D293-4f75-8A90-CB05B6477EEE}
+OptionsInternet|{A3DD4F92-658A-410F-84FD-6FBBBEF2FFFE}
+PolitiquesLocales|{62D8ED13-C9D0-4CE8-A914-47DD628FB1B0}
+Performance|{78F3955E-3B90-4184-BD14-5397C15F1EFC}
+OutilsPerformance|{B2C761C6-29BC-4f19-9251-E6195265BAF1}
+GestionDisques|{74246bfc-4c96-11d0-abef-0020af6b0b7a}
+Services|{D9EF8727-CAC2-4E60-809E-86F80A666C91}
+GestionPartages|{8E908FC9-BECC-40F6-915B-F4CA0E70D03D}
+GestionStockage|{BB06C0E4-D293-4f75-8A90-CB05B6477EEE}
+ParametresPC|{F1B32785-6FBA-4FCF-9D55-7B8E7F157091}
+CentreMobilite|{15eae92e-f17a-4431-9f28-805e482dafd4}
+CentreSecurite|{994133C0-3E5F-49F9-9D47-1F3A1E6A4174}
+CentreAccessibilite|{2C7BB4C4-01BB-11D3-9BC5-00C04F79EFC3}
+OutilsDeDepannage|{C58C4893-3BE0-4B45-ABB5-A63E4B8C8651}
+GestionCouleurs|{B2C761C6-29BC-4f19-9251-E6195265BAF1}
+OptionsIndexation|{87D66A43-7B11-4A28-9811-C86EE395ACF7}
+CentreSynchronisation|{F1390A9A-A3F4-4661-9A26-909F3D20F2E0}
+OptionsDossier|{6DFD7C5C-2451-11D3-A299-00C04F8EF6AF}
+ConnexionsDistantes|{992CFFA0-F557-101A-88EC-00DD010CCC48}
+...
